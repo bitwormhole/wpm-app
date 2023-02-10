@@ -1,4 +1,4 @@
-package wpmappsrc
+package main
 
 import (
 	"embed"
@@ -9,15 +9,15 @@ import (
 	"github.com/bitwormhole/wpm"
 )
 
-//go:embed "main/resources"
+//go:embed "src/main/resources"
 var theModuleResFS embed.FS
 
 const (
-	theModuleResPath = "main/resources"
+	theModuleResPath = "src/main/resources"
 )
 
 // Module ...
-func Module() application.Module {
+func thisModule() application.Module {
 
 	parent := wpm.Module()
 	mb := application.ModuleBuilder{}
