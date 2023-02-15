@@ -48,6 +48,8 @@ github.com/bitwormhole/wpm v0.0.8 h1:1/fN3Yxh81p2XPjiBOQOy6pcYF2mqRmKutdfim5mXAk
 github.com/bitwormhole/wpm v0.0.8/go.mod h1:z4xcakNRGz7Z9m2YtHnZ3Z0O3mYvqY0kbfn2f/P2h3c=
 github.com/bitwormhole/wpm v0.0.9 h1:fWm0QjWFSFslL18gVTcVJiRuXJJXyDdt+DsfQdG6I1Q=
 github.com/bitwormhole/wpm v0.0.9/go.mod h1:+4L3nozWOCMNCubTrfRusLzQqqScIiPcNaT3eRx96bY=
+github.com/bitwormhole/wpm v0.0.10 h1:AT8m6KwtKgJGzamdoRKbnNG2VeS5Rdz9ZZwKwv6Rd8o=
+github.com/bitwormhole/wpm v0.0.10/go.mod h1:+4L3nozWOCMNCubTrfRusLzQqqScIiPcNaT3eRx96bY=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
