@@ -1,5 +1,7 @@
 bitwormhole.com/starter/afs v0.0.6 h1:G35dMHoRNDqkDBnv48k6ceDB0EoSTtsq86VzUXwIXRE=
 bitwormhole.com/starter/afs v0.0.6/go.mod h1:ZhznfGjTwltwXxm8Rpx7fTAWJzWvtT7YqKdS9P8tYTU=
+bitwormhole.com/starter/afs v0.0.7 h1:tR5BItT2f+L5LG6Xz1QM0/g9qxQZMSCLjuuhL484Kzg=
+bitwormhole.com/starter/afs v0.0.7/go.mod h1:ZhznfGjTwltwXxm8Rpx7fTAWJzWvtT7YqKdS9P8tYTU=
 bitwormhole.com/starter/base v0.0.1 h1:/dXgICIoYcMATbA2N+DD1tMYEsyimwQKal2xPaR8cfA=
 bitwormhole.com/starter/base v0.0.1/go.mod h1:a8v7ioNoU380zyISNEXTaVInVFu00FvXo3UHJAckPG0=
 bitwormhole.com/starter/cli v0.0.9 h1:Ayo2VQ9cXhzKsaIxtHkLtCp0PCywuIY2K+95qOzStDo=
@@ -44,6 +46,8 @@ github.com/bitwormhole/wpm v0.0.7 h1:ahNYKuhETwRY6qA2WRlq+ANJdQQsqaY+x5KrLqxsXas
 github.com/bitwormhole/wpm v0.0.7/go.mod h1:z4xcakNRGz7Z9m2YtHnZ3Z0O3mYvqY0kbfn2f/P2h3c=
 github.com/bitwormhole/wpm v0.0.8 h1:1/fN3Yxh81p2XPjiBOQOy6pcYF2mqRmKutdfim5mXAk=
 github.com/bitwormhole/wpm v0.0.8/go.mod h1:z4xcakNRGz7Z9m2YtHnZ3Z0O3mYvqY0kbfn2f/P2h3c=
+github.com/bitwormhole/wpm v0.0.9 h1:fWm0QjWFSFslL18gVTcVJiRuXJJXyDdt+DsfQdG6I1Q=
+github.com/bitwormhole/wpm v0.0.9/go.mod h1:+4L3nozWOCMNCubTrfRusLzQqqScIiPcNaT3eRx96bY=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
