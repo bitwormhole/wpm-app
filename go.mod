@@ -15,8 +15,8 @@ require (
 	github.com/bitwormhole/starter-gorm-sqlite v0.0.5 // indirect
 	github.com/bitwormhole/starter-gorm-sqlserver v0.0.5 // indirect
 	github.com/bitwormhole/starter-restful v0.1.2 // indirect
-	github.com/bitwormhole/wpm v0.0.11 // indirect
-	github.com/bitwormhole/wpm-mix v0.0.1 // indirect
+	github.com/bitwormhole/wpm v0.0.15 // indirect
+	github.com/bitwormhole/wpm-mix v0.0.15 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.8.2 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
