@@ -3,20 +3,20 @@ module github.com/bitwormhole/wpm-app
 go 1.18
 
 require (
-	bitwormhole.com/starter/afs v0.0.7 // indirect
+	bitwormhole.com/starter/afs v0.0.9 // indirect
 	bitwormhole.com/starter/base v0.0.1 // indirect
 	bitwormhole.com/starter/cli v0.0.9 // indirect
 	bitwormhole.com/starter/vlog v0.0.1 // indirect
-	github.com/bitwormhole/gitlib v0.0.13 // indirect
-	github.com/bitwormhole/starter v0.1.6 // indirect
-	github.com/bitwormhole/starter-gin v0.1.4 // indirect
+	github.com/bitwormhole/gitlib v0.0.17 // indirect
+	github.com/bitwormhole/starter v0.1.9 // indirect
+	github.com/bitwormhole/starter-gin v0.1.5 // indirect
 	github.com/bitwormhole/starter-gorm v0.0.8 // indirect
 	github.com/bitwormhole/starter-gorm-mysql v0.0.5 // indirect
 	github.com/bitwormhole/starter-gorm-sqlite v0.0.5 // indirect
 	github.com/bitwormhole/starter-gorm-sqlserver v0.0.5 // indirect
 	github.com/bitwormhole/starter-restful v0.1.2 // indirect
-	github.com/bitwormhole/wpm v0.0.15 // indirect
-	github.com/bitwormhole/wpm-mix v0.0.15 // indirect
+	github.com/bitwormhole/wpm v0.1.10 // indirect
+	github.com/bitwormhole/wpm-mix v0.1.10 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.8.2 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect

@@ -2,6 +2,8 @@ bitwormhole.com/starter/afs v0.0.6 h1:G35dMHoRNDqkDBnv48k6ceDB0EoSTtsq86VzUXwIXR
 bitwormhole.com/starter/afs v0.0.6/go.mod h1:ZhznfGjTwltwXxm8Rpx7fTAWJzWvtT7YqKdS9P8tYTU=
 bitwormhole.com/starter/afs v0.0.7 h1:tR5BItT2f+L5LG6Xz1QM0/g9qxQZMSCLjuuhL484Kzg=
 bitwormhole.com/starter/afs v0.0.7/go.mod h1:ZhznfGjTwltwXxm8Rpx7fTAWJzWvtT7YqKdS9P8tYTU=
+bitwormhole.com/starter/afs v0.0.9 h1:rjE41cNOa0vOmi6MJQS8BcRKIQXiob4a44MfN9Ft0sI=
+bitwormhole.com/starter/afs v0.0.9/go.mod h1:ZhznfGjTwltwXxm8Rpx7fTAWJzWvtT7YqKdS9P8tYTU=
 bitwormhole.com/starter/base v0.0.1 h1:/dXgICIoYcMATbA2N+DD1tMYEsyimwQKal2xPaR8cfA=
 bitwormhole.com/starter/base v0.0.1/go.mod h1:a8v7ioNoU380zyISNEXTaVInVFu00FvXo3UHJAckPG0=
 bitwormhole.com/starter/cli v0.0.9 h1:Ayo2VQ9cXhzKsaIxtHkLtCp0PCywuIY2K+95qOzStDo=
@@ -15,11 +17,17 @@ github.com/Azure/azure-sdk-for-go/sdk/internal v1.0.0/go.mod h1:eWRD7oawr1Mu1sLC
 github.com/AzureAD/microsoft-authentication-library-for-go v0.5.1/go.mod h1:Vt9sXTKwMyGcOxSmLDMnGPgqsUg7m8pe215qMLrDXw4=
 github.com/bitwormhole/gitlib v0.0.13 h1:zI+T6Bx6q+NbyW/f0eiL+SsRHGM2knTxgz4yndNekv8=
 github.com/bitwormhole/gitlib v0.0.13/go.mod h1:rHAjxI4mrs5D6ckaU6T1G2oEogA/2d5VR1z/rJQvz4Y=
+github.com/bitwormhole/gitlib v0.0.17 h1:ri5FVsWB6SUx7hZ9hG4n8EX6LU8aY5CFCk7P5yluY1Y=
+github.com/bitwormhole/gitlib v0.0.17/go.mod h1:wcXeTUh6hzvusAU1y4ygBJPV+1hIA416jrr5F3vlM7E=
 github.com/bitwormhole/starter v0.1.5/go.mod h1:3/UtKB8VwcmR5xf8mx4V7vgGLaej89LaoT+KuJKWL60=
 github.com/bitwormhole/starter v0.1.6 h1:HxizSUnwMa72FjLB/wncEsfqDBp6WflM0c0khl6Prrc=
 github.com/bitwormhole/starter v0.1.6/go.mod h1:3/UtKB8VwcmR5xf8mx4V7vgGLaej89LaoT+KuJKWL60=
+github.com/bitwormhole/starter v0.1.9 h1:ukgw+Vne+gAv2Vx7R5sKd9vLETtOjW4OTdprUh9h2uc=
+github.com/bitwormhole/starter v0.1.9/go.mod h1:3/UtKB8VwcmR5xf8mx4V7vgGLaej89LaoT+KuJKWL60=
 github.com/bitwormhole/starter-gin v0.1.4 h1:ADHR7KLTRkIbilAxC9GXtBKDGjhirXUBsE79wgOekUs=
 github.com/bitwormhole/starter-gin v0.1.4/go.mod h1:YKJCKjpLEcA2ixRwY0FitdK4lgtjJT5WqzIOF8uFZDc=
+github.com/bitwormhole/starter-gin v0.1.5 h1:ZXCRWxBXUYVoR9NZBFcDyYAsgyg+dlvrKX097qfdQPU=
+github.com/bitwormhole/starter-gin v0.1.5/go.mod h1:YKJCKjpLEcA2ixRwY0FitdK4lgtjJT5WqzIOF8uFZDc=
 github.com/bitwormhole/starter-gorm v0.0.8 h1:VrV8Sh7nD23gwez5YwScnWBznnIZjUaVnmjO5kAQq9o=
 github.com/bitwormhole/starter-gorm v0.0.8/go.mod h1:B1n9X/gdOs+l933pdVOlT3+XWZCgWrZ/DVNGT+1HW78=
 github.com/bitwormhole/starter-gorm-mysql v0.0.5 h1:nz/DXgybdlZYI0Jr23FzR0G3cJsftAsdTPJDcHnZ8mA=
@@ -60,6 +68,8 @@ github.com/bitwormhole/wpm v0.0.14 h1:CRgLKvp+J/k85ErbGZHbKveZGNu0kLKtmqGsSbexNg
 github.com/bitwormhole/wpm v0.0.14/go.mod h1:+4L3nozWOCMNCubTrfRusLzQqqScIiPcNaT3eRx96bY=
 github.com/bitwormhole/wpm v0.0.15 h1:uvGTZJlYBmcu1UNGXYXEJ61r/LoibyJFer+PzFc0oik=
 github.com/bitwormhole/wpm v0.0.15/go.mod h1:+4L3nozWOCMNCubTrfRusLzQqqScIiPcNaT3eRx96bY=
+github.com/bitwormhole/wpm v0.1.10 h1:bGLM1LZULzGWi7LdTDOl73UAaI4hp1+J6LI5p1nxfcE=
+github.com/bitwormhole/wpm v0.1.10/go.mod h1:FRsa07RMEJ+8Nez5NbihNJyUrnUNVo0Zw9FAU+59e1o=
 github.com/bitwormhole/wpm-mix v0.0.0-20230303102032-2d8ecccd4dda h1:mJCWvPuWmgb/fEeM/NiEqFUeXX8zI2P7+iDNWcfA57c=
 github.com/bitwormhole/wpm-mix v0.0.0-20230303102032-2d8ecccd4dda/go.mod h1:ruOHeNiX/FKs1lFOXVjNcNRD09MlIIPlFrjkiUb3es8=
 github.com/bitwormhole/wpm-mix v0.0.0-20230314125409-f79b5cf278b5 h1:/f/mNWwYfQ2GHUx+/519QOMly+JWcsXgsdZslQmxfDQ=
@@ -74,6 +84,8 @@ github.com/bitwormhole/wpm-mix v0.0.14 h1:zFsbcyjeEmBYjlQrcGYHMdxaJCk3fTPFY1AXa+
 github.com/bitwormhole/wpm-mix v0.0.14/go.mod h1:da64bkwV7a450SMhSXGTiwZLjPhWgl34XRpGJrTz48Q=
 github.com/bitwormhole/wpm-mix v0.0.15 h1:FsGsGpzLZhOy3JOQBBxPXXaxVXKox9Myv7GHxVglpmw=
 github.com/bitwormhole/wpm-mix v0.0.15/go.mod h1:6jW4h7wF0gJcte0xPiiK7uPC8lBuw7R0Qea1CiC1jYc=
+github.com/bitwormhole/wpm-mix v0.1.10 h1:/6HlEFzGhTSPJewkrvGpM/fbmfeU+HH7PlEAkK4StAo=
+github.com/bitwormhole/wpm-mix v0.1.10/go.mod h1:v9lBxU6N6d7Moob7VhcgXIiBugPlodDsyMThB7d+2QU=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
