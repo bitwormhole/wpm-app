@@ -6,6 +6,10 @@ import (
 	"github.com/bitwormhole/starter"
 	"github.com/bitwormhole/starter/application"
 	"github.com/bitwormhole/starter/collection"
+	"github.com/bitwormhole/wpm-app/app"
+	"github.com/bitwormhole/wpm-app/gen/cboot"
+	"github.com/bitwormhole/wpm-app/gen/cgui"
+	"github.com/bitwormhole/wpm-app/gen/cserver"
 	wpmmix "github.com/bitwormhole/wpm-mix"
 	"github.com/bitwormhole/wpm/server/service"
 )
@@ -21,22 +25,102 @@ const (
 var theModuleResFS embed.FS
 
 func main() {
+	c := &wpmAppContext{}
+	err := c.RunBoot()
+	if err != nil {
+		panic(err)
+	}
+}
 
-	res := collection.LoadEmbedResources(&theModuleResFS, theModuleResPath)
+////////////////////////////////////////////////////////////////////////////////
 
-	// module
+type wpmAppContext struct {
+}
+
+func (inst *wpmAppContext) _Impl() app.Context {
+	return inst
+}
+
+func (inst *wpmAppContext) GetPort() int {
+	return 0
+}
+
+func (inst *wpmAppContext) RunBoot() error {
+
+	res := inst.getRes()
+
+	// config module
 	mb := application.ModuleBuilder{}
-	mb.Name(theModuleName)
+	mb.Name(theModuleName + "#boot")
 	mb.Version(theModuleVersion)
 	mb.Revision(theModuleRevision)
 	mb.Resources(res)
-	mb.Dependency(wpmmix.Module())
+	mb.OnMount(cboot.ConfigForBoot)
 
+	mb.Dependency(wpmmix.ModuleBoot())
+
+	// make module
 	m := mb.Create()
+
+	// run
+	return inst.runWithModule(m)
+}
+
+func (inst *wpmAppContext) RunServer() error {
+
+	res := inst.getRes()
+
+	// config module
+	mb := application.ModuleBuilder{}
+	mb.Name(theModuleName + "#server")
+	mb.Version(theModuleVersion)
+	mb.Revision(theModuleRevision)
+	mb.Resources(res)
+	mb.OnMount(cserver.ConfigForServer)
+
+	mb.Dependency(wpmmix.ModuleServer())
+
+	// make module
+	m := mb.Create()
+
 	service.SetAppModule(m)
 
 	// run
+	return inst.runWithModule(m)
+}
+
+func (inst *wpmAppContext) RunGUI() error {
+
+	res := inst.getRes()
+
+	// config module
+	mb := application.ModuleBuilder{}
+	mb.Name(theModuleName + "#gui")
+	mb.Version(theModuleVersion)
+	mb.Revision(theModuleRevision)
+	mb.Resources(res)
+	mb.OnMount(cgui.ConfigForGUI)
+
+	// mb.Dependency(wpmmix.Module  ())
+
+	// make module
+	m := mb.Create()
+
+	// run
+	return inst.runWithModule(m)
+}
+
+func (inst *wpmAppContext) getRes() collection.Resources {
+	return collection.LoadEmbedResources(&theModuleResFS, theModuleResPath)
+}
+
+func (inst *wpmAppContext) runWithModule(m application.Module) error {
 	i := starter.InitApp()
 	i.UseMain(m)
-	i.Run()
+	app.BindContext(inst, i)
+	rt, err := i.RunEx()
+	if err != nil {
+		return err
+	}
+	return rt.Loop()
 }
